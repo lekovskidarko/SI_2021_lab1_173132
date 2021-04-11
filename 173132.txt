@@ -9,4 +9,5 @@ Link do Remote Repo: https://github.com/lekovskidarko/SI_2021_lab1_173132.git
     - commit komanda: git add .
                     git commit -m “Add numbers from 1-5”
                     git push
-5.
+5. Gi dodavam broevite 6-9 + commit so istata komanda i komentar "Add numbers from 6-9"
+6. Dodavam zborovi + commit so istata komanda i komentar "Add some words"
