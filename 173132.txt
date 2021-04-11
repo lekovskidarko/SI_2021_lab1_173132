@@ -1,1 +1,12 @@
-Test Konekcija
+Lab 1 Darko Lekovski 173132
+
+Link do Remote Repo: https://github.com/lekovskidarko/SI_2021_lab1_173132.git
+
+1. Kreiranje na lokalen (komanda: git init) i remote repozitorium na github
+2. Konekcija na lokalen so remote repo (komanda: git remote add origin https://github.com/lekovskidarko/SI_2021_lab1_173132.git)
+3. Za da se koristi pokratka verzija na komandata push (git push origin master), ja koristam komandata: (git push --set-upstream origin master) sto znachi deka lokalniot master branch e konektiran so remote master branch.
+4. Kreiram fajl "numbers.txt" i gi dodavam broevite 1-5 
+    - push komanda: git add .
+                    git commit -m “Add numbers from 1-5”
+                    git push
+5.
