@@ -13,3 +13,9 @@ Link do Remote Repo: https://github.com/lekovskidarko/SI_2021_lab1_173132.git
 6. Dodavam zborovi + commit so istata komanda i komentar "Add some words"
 7. *Ne znam kako da izbrisham samo zborovi od fajl, probav so komanda: (sed ’s/zbor/ /‘ numbers.txt) no ne uspeshno, pa samo gi izbrishav za ovoj cekor.
 8. Napraviv sync na remote repo so local so komanda: (git pull -p)
+9. Kreirav novi branches so komanda:
+    git checkout -b branch1
+    Switched to a new branch 'branch1'
+    darkolekovski@Darkos-MacBook-Pro SI_2021_lab1_173132 % git checkout -b branch2
+    Switched to a new branch 'branch2'
+10.
