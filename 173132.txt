@@ -12,4 +12,42 @@ Link do Remote Repo: https://github.com/lekovskidarko/SI_2021_lab1_173132.git
 5. Gi dodavam broevite 6-9 + commit so istata komanda i komentar "Add numbers from 6-9"
 6. Dodavam zborovi + commit so istata komanda i komentar "Add some words"
 7. *Ne znam kako da izbrisham samo zborovi od fajl, probav so komanda: (sed ’s/zbor/ /‘ numbers.txt) no ne uspeshno, pa samo gi izbrishav za ovoj cekor.
-8.
+8. Napraviv sync na remote repo so local so komanda: (git pull -p)
+9. Kreirav novi branches so komanda:
+    git checkout -b branch1
+    Switched to a new branch 'branch1'
+    darkolekovski@Darkos-MacBook-Pro SI_2021_lab1_173132 % git checkout -b branch2
+    Switched to a new branch 'branch2'
+10. Se prefrliv vo branch1 i kreirav nov fajl words.txt i napraviv commit "Add 5 words"
+11. Vo branch2 dodadov broevite 10-15 i napraviv commit "Add numbers from 10-15"
+Log:
+        darkolekovski@Darkos-MacBook-Pro SI_2021_lab1_173132 % git add .
+        darkolekovski@Darkos-MacBook-Pro SI_2021_lab1_173132 % git commit -m "Add numbers from 10-15"
+        [branch2 83c52b5] Add numbers from 10-15
+        Committer: Darko Lekovski <darkolekovski@Darkos-MacBook-Pro.local>
+        Your name and email address were configured automatically based
+        on your username and hostname. Please check that they are accurate.
+        You can suppress this message by setting them explicitly. Run the
+        following command and follow the instructions in your editor to edit
+        your configuration file:
+
+            git config --global --edit
+
+        After doing this, you may fix the identity used for this commit with:
+
+            git commit --amend --reset-author
+
+        1 file changed, 6 insertions(+)
+        darkolekovski@Darkos-MacBook-Pro SI_2021_lab1_173132 % git push
+        Enumerating objects: 5, done.
+        Counting objects: 100% (5/5), done.
+        Delta compression using up to 8 threads
+        Compressing objects: 100% (2/2), done.
+        Writing objects: 100% (3/3), 359 bytes | 359.00 KiB/s, done.
+        Total 3 (delta 0), reused 0 (delta 0)
+        To https://github.com/lekovskidarko/SI_2021_lab1_173132.git
+        2e89704..83c52b5  branch2 -> branch2
+        darkolekovski@Darkos-MacBook-Pro SI_2021_lab1_173132 % git pull -p
+        Already up to date.
+        darkolekovski@Darkos-MacBook-Pro SI_2021_lab1_173132 % 
+12. Merge branch1 vo master branch so komanda: git merge branch1 (na master branch)
