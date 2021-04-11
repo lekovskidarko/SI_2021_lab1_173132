@@ -50,4 +50,7 @@ Log:
         darkolekovski@Darkos-MacBook-Pro SI_2021_lab1_173132 % git pull -p
         Already up to date.
         darkolekovski@Darkos-MacBook-Pro SI_2021_lab1_173132 % 
+
 12. Merge branch1 vo master branch so komanda: git merge branch1 (na master branch)
+13. Promena vo numbers i commit "Change 1 to 0 and add 100"
+14. Merge branch2 vo master branch so komanda: git merge branch2 (na master branch)
